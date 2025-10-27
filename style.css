@@ -246,7 +246,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0 0 30px 30px;
+    align-self: flex-end;
 }
 .footer div {
     width: 500px;
