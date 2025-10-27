@@ -3,6 +3,11 @@ const dlg = document.getElementById('contactDialog');
 const openBtn = document.getElementById('bt');
 const closeBtn = document.getElementById('closeDialog');
 const form = document.getElementById('contactForm');
+const download1 = document.getElementById('download1');
+
+download1.addEventListener('click', () => {
+    alert('Cкоро будет');
+});
 
 if (!dlg || !openBtn || !closeBtn || !form) {
     console.error('Не найдены необходимые элементы на странице:');
